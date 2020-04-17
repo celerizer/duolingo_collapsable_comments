@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Duolingo Collapsable Comments",
+  "version": "1.0",
+
+  "description": "Collapse Duolingo comments on desktop browers",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.forum.duolingo.com/comment/*"],
+      "js": ["duolingo_collapsable_comments.js"]
+    }
+  ]
+}
